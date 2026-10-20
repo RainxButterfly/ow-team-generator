@@ -1,0 +1,9 @@
+{
+  "version": "0.7.1",
+  "date": "2026-10-21",
+  "notes": "1. 新增在线自动更新，以后不用再手动下载新版\n2. 对局记录支持一键复制为图片，自动拼接多局卡片\n3. 修复对局记录局数多时卡片被压扁、无法滚动的问题\n4. 修复部分位置版本号显示不一致",
+  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.7.1/OWTeamGenerator_v0.7.1_portable.exe",
+  "size": 25851392,
+  "sha256": "d3f6cd1d0553388841d8fb68b1533aaa232ae8ae3ea1fd02748839a4bb03d788",
+  "mirror": "https://ghfast.top/"
+}
