@@ -1,9 +1,9 @@
 {
-  "version": "0.7.2",
+  "version": "0.7.3",
   "date": "2026-10-21",
-  "notes": "1. 新增在线自动更新，以后不用再手动下载新版\n2. 对局记录支持一键复制为图片，自动拼接多局卡片\n3. 修复对局记录局数多时卡片被压扁、无法滚动的问题\n4. 安装版改为装在当前用户目录，同样支持自动更新\n5. 修复更新后旧版本文件残留、占用磁盘的问题\n6. 检查更新改为多源比对，避免 CDN 缓存导致查不到新版",
-  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.7.2/OWTeamGenerator_v0.7.2_portable.exe",
-  "size": 25861120,
-  "sha256": "e364f044d7ce1025c2cc26baaa21c3135cee362c350157a463995b0a4eb98e6e",
+  "notes": "1. 更新时自动使用系统代理，开着加速器也能正常检查更新\n2. 下载失败自动轮换多个加速镜像，不再只依赖一个\n3. 更新源多地址并发比对，避免单个 CDN 节点缓存导致查不到新版\n4. 下载到的文件校验不通过时自动换源重试，不再直接报错",
+  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.7.3/OWTeamGenerator_v0.7.3_portable.exe",
+  "size": 25869312,
+  "sha256": "a4dd6d025b973bfd0c66868c9fb32f9755b817c002f88c643160ab1ba3de7172",
   "mirror": "https://ghfast.top/"
 }
