@@ -1,9 +1,9 @@
 {
-  "version": "0.7.5",
-  "date": "2026-10-21",
-  "notes": "1. 新增：名单可直接增删改，识图后想换人不用重新识别\n2. 新增：分队结果显示两队胜率预估，一眼看出这局几几开\n3. 修复：同时开两个窗口会互相覆盖战绩，现在只允许开一个\n4. 修复：战绩改为原子写入并每天自动备份，避免意外中断导致文件损坏\n5. 新增：崩溃日志，闪退后可到数据目录查看 crash.log",
-  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.7.5/OWTeamGenerator_portable.exe",
-  "size": 25908736,
-  "sha256": "563acf32e1a37f8df837449d6c7bdb2805c3295f6cf36f8744798f7012ed6eca",
+  "version": "0.8",
+  "date": "2026-10-22",
+  "notes": "1. 新增职责分队：给每位玩家标位置（坦克 / 输出 / 支援 / 任意位置），分队时保证两队各位置人数均衡，且都有人能打坦克和支援\n2. 新增车队模板：把常驻名单存成模板，下次一键载入；支持新建、重命名、删除，也能导入导出模板文件\n3. Ban 位数量可选：每队 1 个或 2 个，只打一两个英雄的局选 1 个就行\n4. 地图三选一误关不再丢：抽出的三张会保留，重新打开还在，选定或重抽才清掉\n5. 新增战绩每天自动新建：新的一天首次打开会自动建一份，避免胜负记进昨天（开关在战绩面板里）\n6. 新增当日战报图：把这一份的胜率排行和 Ban 次数汇总成一张图，打完直接发群\n7. 新增「再记一局」：阵容不变连打多局，点一下就多记一局\n8. 启动后自动预热识别模型，第一次点图片识别不用再干等\n9. 新增快捷键：Ctrl+Enter 随机分队、Ctrl+S 保存配置",
+  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.8/OWTeamGenerator_portable.exe",
+  "size": 25958912,
+  "sha256": "a3049f90668e43512366fade561abdb3b1e18cd18d3445f5120dfa4d1bd6226c",
   "mirror": "https://ghfast.top/"
 }
