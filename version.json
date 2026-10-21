@@ -1,9 +1,9 @@
 {
-  "version": "0.7.4",
+  "version": "0.7.5",
   "date": "2026-10-21",
-  "notes": "1. 支持自动更新：启动自动检查，一键下载替换重启，不用卸载重装\n2. 更新时自动使用系统代理，下载失败会自动换加速镜像\n3. 对局记录支持一键复制为图片，自动拼接多局卡片\n4. 修复对局记录局数多时卡片被压扁、无法滚动的问题\n5. 分发文件统一命名，文件名不再带版本号",
-  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.7.4/OWTeamGenerator_portable.exe",
-  "size": 25870336,
-  "sha256": "ed7c41d69d2b7c7ff1f2496c646d81334dcd9fba8cbb1788879e5e6178ea1f7d",
+  "notes": "1. 新增：名单可直接增删改，识图后想换人不用重新识别\n2. 新增：分队结果显示两队胜率预估，一眼看出这局几几开\n3. 修复：同时开两个窗口会互相覆盖战绩，现在只允许开一个\n4. 修复：战绩改为原子写入并每天自动备份，避免意外中断导致文件损坏\n5. 新增：崩溃日志，闪退后可到数据目录查看 crash.log",
+  "url": "https://github.com/RainxButterfly/ow-team-generator/releases/download/v0.7.5/OWTeamGenerator_portable.exe",
+  "size": 25908736,
+  "sha256": "563acf32e1a37f8df837449d6c7bdb2805c3295f6cf36f8744798f7012ed6eca",
   "mirror": "https://ghfast.top/"
 }
